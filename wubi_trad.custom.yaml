@@ -1,0 +1,10 @@
+# Rime schema settings
+# encoding: utf-8
+
+patch:
+  schema/name: "五笔·简入繁出"
+  engine/translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - lua_translator@date_translator  # 日期时间变量输出
