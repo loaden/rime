@@ -1,0 +1,47 @@
+# default.custom.yaml
+# save it to:
+#   ~/.config/ibus/rime (Linux)
+#   ~/Library/Rime      (macOS)
+#   %APPDATA%\Rime      (Windows)
+
+patch:
+  schema_list:
+    - schema: terra_pinyin
+    - schema: luna_pinyin
+    - schema: wubi86
+    - schema: wubi_pinyin
+    - schema: wubi_trad
+
+  menu:
+    page_size: 5  # 候选词数量
+  switcher:
+    hotkeys:
+      - "Control+0"
+    abbreviate_options: true
+    caption: "〔输入法设置〕"
+    option_list_separator: "｜"
+
+  # 中英文切换键
+  # inline_ascii  在输入法的临时英文编辑区内输入字母，数字，符号，空格等，回车上屏后自动复位到中文
+  # commit_text   已输入的候选文字上屏并切换至英文输入模式
+  # commit_code   已输入的编码字符上屏并切换至英文输入模式
+  # clear         清除已输入的编码并切换至英文输入模式
+  # noop          保留该键原始功能，不做任何处理
+  ascii_composer:
+    good_old_caps_lock: true  # true切换大小写，false禁止切换大小写
+    switch_key:
+      Caps_Lock: clear
+      Shift_L: inline_ascii   # 注意：macOs上shift键不区分左右
+      Shift_R: inline_ascii
+      Control_L: noop
+      Control_R: noop
+
+  # 候选翻页功能键
+  key_binder:
+    bindings:
+      - {accept: semicolon, send: 2, when: has_menu}  # 候选2 用分号选择
+      - {accept: apostrophe, send: 3, when: has_menu} # 候选3 用单引号选择
+      # - {accept: comma, send: 2, when: has_menu}      # 候选2 用逗号选择
+      # - {accept: period, send: 3, when: has_menu}     # 候选3 用句号选择
+      - {accept: bracketleft, send: Page_Up, when: paging}      # 上一页
+      - {accept: bracketright, send: Page_Down, when: has_menu} # 下一页
