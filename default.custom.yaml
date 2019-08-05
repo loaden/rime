@@ -13,7 +13,7 @@ patch:
     - schema: wubi_trad
 
   menu:
-    page_size: 6  # 候选词数量
+    page_size: 5  # 候选词数量
   switcher:
     caption: 〔输入法设置〕
     hotkeys:
@@ -35,17 +35,19 @@ patch:
     good_old_caps_lock: true  # true切换大小写，false禁止切换大小写
     switch_key:
       Caps_Lock: clear
-      Shift_L: inline_ascii   # 注意：macOs上shift键不区分左右
-      Shift_R: inline_ascii
+      Shift_L: inline_ascii
+      Shift_R: commit_text
       Control_L: noop
       Control_R: noop
 
-  # 候选翻页功能键
+  # 翻页选择切换键
   key_binder:
     bindings:
-      - {accept: semicolon, send: 2, when: has_menu}  # 候选2 用分号选择
-      - {accept: apostrophe, send: 3, when: has_menu} # 候选3 用单引号选择
-      # - {accept: comma, send: 2, when: has_menu}      # 候选2 用逗号选择
-      # - {accept: period, send: 3, when: has_menu}     # 候选3 用句号选择
-      - {accept: bracketleft, send: Page_Up, when: paging}      # 上一页
-      - {accept: bracketright, send: Page_Down, when: has_menu} # 下一页
+      - {accept: minus, send: Page_Up, when: has_menu}              # - 向前翻页
+      - {accept: equal, send: Page_Down, when: has_menu}            # = 向后翻页
+      - {accept: comma, send: Page_Up, when: paging}                # , 向前翻页
+      - {accept: period, send: Page_Down, when: has_menu}           # . 向后翻页
+      - {accept: semicolon, send: 2, when: has_menu}                # ; 候选2
+      - {accept: apostrophe, send: 3, when: has_menu}               # ' 候选3
+      - {accept: Control+comma, toggle: full_shape, when: always}   # Control+, 半角/全角
+      - {accept: Control+period, toggle: ascii_punct, when: always} # Control+.　.,/。，
