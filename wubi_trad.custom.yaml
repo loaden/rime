@@ -18,6 +18,6 @@ patch:
       states: [ 常用, 增补 ]
     - name: zh_trad
       reset: 1
-      states: [ 简体, 繁体 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+  abc_segmentor: # 取消五笔拼音混合输入
