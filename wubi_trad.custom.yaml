@@ -15,7 +15,7 @@ patch:
     - name: full_shape
       states: [ 半角, 全角 ]
     - name: extended_charset
-      states: [ 常用, 增补 ]
+      states: [ 通用, 增广 ]
     - name: zh_trad
       reset: 1
     - name: ascii_punct

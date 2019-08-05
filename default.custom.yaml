@@ -13,7 +13,7 @@ patch:
     - schema: wubi_trad
 
   menu:
-    page_size: 5  # 候选词数量
+    page_size: ６  # 候选词数量
   switcher:
     caption: 〔输入法设置〕
     hotkeys:
