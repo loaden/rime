@@ -13,12 +13,16 @@ patch:
     - schema: wubi_trad
 
   menu:
-    page_size: 5  # 候选词数量
+    page_size: 6  # 候选词数量
   switcher:
+    caption: 〔输入法设置〕
     hotkeys:
-      - "Control+0"
+      - Control+0
+      - Control+grave
+      - Control+Shift+grave
+      - F4
+    fold_options: true
     abbreviate_options: true
-    caption: "〔输入法设置〕"
     option_list_separator: "｜"
 
   # 中英文切换键
