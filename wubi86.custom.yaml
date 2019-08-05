@@ -18,3 +18,8 @@ patch:
     - name: ascii_punct
       states: [ 。，, ．， ]
   translator/dictionary: wubi86_extended
+  speller:
+    max_code_length: 4                  # 四码上屏
+    auto_select: true                   # 自动上屏
+    auto_select_unique_candidate: true  # 无重码自动上屏
+    delimiter: " ;'"
