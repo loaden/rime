@@ -1,0 +1,68 @@
+# Rime extended dictionary
+# encoding: utf-8
+
+name: wubi86_extended
+version: "2019.08.05"
+sort: by_weight
+import_tables:
+  - wubi86
+...
+
+# ----- 编码须知 -----
+# 格式：字词	键码	权重	（中间是tab，不是空格，权重可省略）
+# 注释必须独占一行，不可在词条后面写注释
+
+# 中州韵输入法
+鼠须管	vetp
+小狼毫	iqyp
+中州韵	kyuj
+
+# 苹果产品
+MacBook	mac
+MacBook Pro	macp
+Apple	appl
+iPhone	ipho
+iPad	ipad
+iPod	ipod
+macOS	maco
+iOS	ios
+
+# 科技相关
+适配	tdsg
+推送	rwud
+卡顿	hhgb
+二维码	fxdc
+刷机	nmsm
+微博	tmfg
+安卓	pvhj
+重置	tglf
+翻墙	toff
+扫码	rvdc
+脸书	ewnn
+推特	rwtr
+
+# 其它
+京东	yiai
+天猫	gdqt
+花呗	awkm
+支付宝	fwpg
+微信	tmwy
+顺丰	kddh
+中通	khce
+不离不弃	gygy
+蹉跎	khkh
+手环	rtgg
+跳转	khlf
+挺好	rtvb
+靠谱	tfyu
+美团	uglf
+群主	vtyg
+僵尸	wgnn
+华为	wxyl
+倒计时	wyjf
+给力	xwlt
+高大上	ydhh
+大神	ddpy
+大佬	ddwf
+老铁	ftqr
+吃鸡	ktcq

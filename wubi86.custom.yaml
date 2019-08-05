@@ -17,3 +17,4 @@ patch:
       states: [ 常用, 增补 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+  translator/dictionary: wubi86_extended

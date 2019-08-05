@@ -20,4 +20,5 @@ patch:
       reset: 1
     - name: ascii_punct
       states: [ 。，, ．， ]
+  translator/dictionary: wubi86_extended
   abc_segmentor: # 取消五笔拼音混合输入
