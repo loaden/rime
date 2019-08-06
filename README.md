@@ -6,7 +6,7 @@ RIME 是一款跨平台的优秀输入法框架，基于该框架在不同平台
 - macOS - 鼠须管
 - Linux - 中州韵（ibus-rime）
 
-## 基本用法与说明
+## 功能用法与配置说明
 - Control+\` 或 Control+Shift+\` 或 Control+0 或 F4 实现输入法及功能切换
 - Shift 键临时切换到英文输入，再次按下Shift键返回到中文输入
 - 逗号、句号前后翻页，兼容减号、加号前后翻页
@@ -19,7 +19,8 @@ RIME 是一款跨平台的优秀输入法框架，基于该框架在不同平台
 - 所有从官方拷贝的词库、配置都不做任何修改，原汁原味，方便升级
 - 美化输入法界面，感谢KyleBing（RIME极点五笔）
 
-## 输出系统时间和日期
+### 输出系统时间和日期
+感谢 KyleBing（RIME极点五笔）：https://github.com/KyleBing/rime-wubi86-jidian
 - date 输出日期，格式 `2019年06月19日`
 - time 输出时间，格式 `10:00`
 
@@ -38,9 +39,7 @@ brew install opencc
 - RIME github 地址：https://github.com/rime
 - RIME 官方五笔码表：https://github.com/rime/rime-wubi
 - RIME 拼音反查词库：https://github.com/rime/rime-pinyin-simp
-
 - RIME 官方网站：https://rime.im
-- RIME 极点五笔：https://github.com/KyleBing/rime-wubi86-jidan
 
 ## 使用反馈
 - https://github.com/loaden/rime
