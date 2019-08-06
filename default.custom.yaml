@@ -35,7 +35,7 @@ patch:
     good_old_caps_lock: true  # true切换大小写，false禁止切换大小写
     switch_key:
       Caps_Lock: clear
-      Shift_L: inline_ascii
+      Shift_L: inline_ascii # macOS 不区分左右，右Shift与左Shift功能相同
       Shift_R: commit_text
       Control_L: noop
       Control_R: noop
