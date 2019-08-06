@@ -6,6 +6,28 @@ RIME 是一款跨平台的优秀输入法框架，基于该框架在不同平台
 - macOS - 鼠须管
 - Linux - 中州韵（ibus-rime）
 
+## 基本用法与说明
+- Control+\` 或 Control+Shift+\` 或 Control+0 或 F4 实现输入法及功能切换
+- Shift 键临时切换到英文输入，再次按下Shift键返回到中文输入
+- 逗号、名号前后翻页，兼容减号、加号前后翻页
+- 分号、单引号选择第二、第三候选字/词
+- Control+, 实现“半角/全角”切换，Control+.　实现“.,/。，”切换
+- 支持斜杠开头的特殊符号输入，例如/sx输入数学符号，详情请参考symbols.yaml
+- 支持五笔、五笔拼音、五笔简入繁出，五笔z键可临时切换到拼音
+- 输入法界面字符完全采取简体中文，拼音默认输出简体
+- 所有从官方拷贝的词库、配置都不做任何修改，原汁原味，方便升级
+- 美化输入法界面，感谢KyleBing（极点五笔）
+
+## 输出系统时间和日期
+- date 输出日期，格式 `2019年06月19日`
+- time 输出时间，格式 `10:00`
+
+## 安装配置
+首先请访问官方网站https://rime.im，根据提示说明下载安装各平台RIME输入法，然后从本站打包下载词库配置，分别解压缩到各平台用户数据目录后重新部署。
+- ~/.config/ibus/rime (Linux)
+- ~/Library/Rime      (macOS)
+- %APPDATA%\Rime      (Windows)
+
 ## 相关链接
 - RIME github 地址：https://github.com/rime
 - RIME 官方五笔码表：https://github.com/rime/rime-wubi
@@ -13,11 +35,3 @@ RIME 是一款跨平台的优秀输入法框架，基于该框架在不同平台
 
 - RIME 官方网站：https://rime.im
 - RIME 极点五笔：https://github.com/KyleBing/rime-wubi86-jidan
-
-## 用法与说明
-- Control+\` 或 Control+Shift+\` 或 Control+0 或 F4 实现输入法及功能切换
-- Shift 键临时切换到英文输入，再次按下Shift键返回到中文输入
-
-## 输出系统时间和日期
-- date 输出日期，格式 `2019年06月19日`
-- time 输出时间，格式 `10:00`
