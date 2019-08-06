@@ -27,3 +27,7 @@ patch:
     auto_select: true                   # 自动上屏
     auto_select_unique_candidate: true  # 无重码自动上屏
     delimiter: " ;'"
+  punctuator:
+    import_preset: symbols
+  recognizer/patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
