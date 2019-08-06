@@ -40,14 +40,18 @@ patch:
       Control_L: noop
       Control_R: noop
 
-  # 翻页选择切换键
+  # 翻页选择功能键
   key_binder:
     bindings:
-      - {accept: minus, send: Page_Up, when: has_menu}              # - 向前翻页
-      - {accept: equal, send: Page_Down, when: has_menu}            # = 向后翻页
-      - {accept: comma, send: Page_Up, when: paging}                # , 向前翻页
-      - {accept: period, send: Page_Down, when: has_menu}           # . 向后翻页
-      - {accept: semicolon, send: 2, when: has_menu}                # ; 候选2
-      - {accept: apostrophe, send: 3, when: has_menu}               # ' 候选3
-      - {accept: Control+comma, toggle: full_shape, when: always}   # Control+, 半角/全角
-      - {accept: Control+period, toggle: ascii_punct, when: always} # Control+.　.,/。，
+      __include: user_key_bindings
+      __append:
+        __patch:
+          - key_bindings:/paging_with_minus_equal   # - = 前后翻页
+          - key_bindings:/paging_with_comma_period  # , . 前后翻页
+    import_preset: default
+
+user_key_bindings:
+  - {accept: semicolon, send: 2, when: has_menu}                # ; 候选2
+  - {accept: apostrophe, send: 3, when: has_menu}               # ' 候选3
+  - {accept: Control+comma, toggle: full_shape, when: always}   # Control+, 半角/全角
+  - {accept: Control+period, toggle: ascii_punct, when: always} # Control+.　.,/。，
