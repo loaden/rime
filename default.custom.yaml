@@ -51,7 +51,7 @@ patch:
     import_preset: default
 
 user_key_bindings:
-  - {accept: semicolon, send: 2, when: has_menu}                # ; 候选2
-  - {accept: apostrophe, send: 3, when: has_menu}               # ' 候选3
-  - {accept: Control+comma, toggle: full_shape, when: always}   # Control+, 半角/全角
-  - {accept: Control+period, toggle: ascii_punct, when: always} # Control+.　.,/。，
+  - { when: has_menu, accept: semicolon, send: 2 }                # ; 候选2
+  - { when: has_menu, accept: apostrophe, send: 3 }               # ' 候选3
+  - { when: always, accept: Control+comma, toggle: full_shape }   # Control+, 半角/全角
+  - { when: always, accept: Control+period, toggle: ascii_punct } # Control+.　.,/。，
