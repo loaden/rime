@@ -22,6 +22,8 @@ patch:
       states: [ 。，, ．， ]
   translator/dictionary: wubi86_extended
   abc_segmentor: # 取消五笔拼音混合输入
+  reverse_lookup/prefix: "z" # 改用z键拼音反查
+  recognizer/patterns/reverse_lookup: "^z[a-z]*'?$"
   speller:
     max_code_length: 4                  # 四码上屏
     auto_select: true                   # 自动上屏
