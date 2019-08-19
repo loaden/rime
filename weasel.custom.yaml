@@ -1,5 +1,7 @@
+# Windows平台“小狼毫”配置
+
 patch:
-  style: 
+  style:
     color_scheme: diy
     font_face: "仿宋"
     font_point: 14
