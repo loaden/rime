@@ -43,15 +43,12 @@ patch:
   # 翻页选择功能键
   key_binder:
     bindings:
-      __include: user_key_bindings
-      __append:
-        __patch:
-          - key_bindings:/paging_with_minus_equal   # - = 前后翻页
-          - key_bindings:/paging_with_comma_period  # , . 前后翻页
+      - { when: has_menu, accept: minus, send: Page_Up }              # - 向后翻页
+      - { when: has_menu, accept: equal, send: Page_Down }            # = 向前翻页
+      - { when: paging, accept: comma, send: Page_Up }                # , 向后翻页
+      - { when: has_menu, accept: period, send: Page_Down }           # . 向前翻页
+      - { when: has_menu, accept: semicolon, send: 2 }                # ; 候选2
+      - { when: has_menu, accept: apostrophe, send: 3 }               # ' 候选3
+      - { when: always, accept: Control+comma, toggle: full_shape }   # Control+, 半角/全角
+      - { when: always, accept: Control+period, toggle: ascii_punct } # Control+. .,/。，
     import_preset: default
-
-user_key_bindings:
-  - { when: has_menu, accept: semicolon, send: 2 }                # ; 候选2
-  - { when: has_menu, accept: apostrophe, send: 3 }               # ' 候选3
-  - { when: always, accept: Control+comma, toggle: full_shape }   # Control+, 半角/全角
-  - { when: always, accept: Control+period, toggle: ascii_punct } # Control+.　.,/。，
