@@ -3,10 +3,9 @@
 patch:
   style:
     color_scheme: diy
-    font_face: "仿宋"
+    font_face: 仿宋
     font_point: 14
     horizontal: false
-    fullscreen: false
     inline_preedit: false
     preedit_type: composition
     display_tray_icon: false

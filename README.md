@@ -17,10 +17,8 @@ RIME 是一款跨平台的优秀输入法框架，基于该框架在不同平台
 - 五笔支持扩展词库，用户可自行编辑wubi86_extended.dict.yaml
 - 输入法界面字符完全采用简体中文，拼音默认输出简体
 - 所有从官方拷贝的词库、配置都不做任何修改，原汁原味，方便升级
-- 美化输入法界面，感谢KyleBing（RIME极点五笔）
 
 ### 输出系统时间和日期
-感谢 KyleBing（RIME极点五笔）：https://github.com/KyleBing/rime-wubi86-jidian
 - date 输出日期，格式 `2019年06月19日`
 - time 输出时间，格式 `10:00`
 
