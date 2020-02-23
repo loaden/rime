@@ -8,7 +8,7 @@ patch:
     label_font_face: Monaco
     label_font_point: 15
     candidate_format: "%c. %@"
-    horizontal: false
+    horizontal: true
     inline_preedit: false
     corner_radius: 8
     border_height: 0

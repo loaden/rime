@@ -6,14 +6,12 @@
 
 patch:
   schema_list:
-    - schema: terra_pinyin
+    - schema: wubi_pinyin
     - schema: luna_pinyin
     - schema: wubi86
-    - schema: wubi_pinyin
     - schema: wubi_trad
-
   menu:
-    page_size: 6  # 候选词数量
+    page_size: 5  # 候选词数量
   switcher:
     caption: 〔输入法设置〕
     hotkeys:
