@@ -18,14 +18,20 @@ import_tables:
 中州韵	kyuj
 
 # 苹果产品
-MacBook	mac
+MacBook	macb
 MacBook Pro	macp
 Apple	appl
 iPhone	ipho
 iPad	ipad
 iPod	ipod
-macOS	maco
+
+# 系统
+Windows	win
+Linux	lin
+macOS	mac
 iOS	ios
+Android	and
+UOS	uos
 
 # 科技相关
 适配	tdsg
