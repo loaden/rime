@@ -1,0 +1,5 @@
+# Linux平台“ibus-rime”配置
+
+patch:
+  style:
+    horizontal: true
