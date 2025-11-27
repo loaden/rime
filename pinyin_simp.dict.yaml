@@ -1710,6 +1710,7 @@ sort: by_weight
 愍	min	25
 敃	min	29
 憫	min	31
+忞	min	50
 悯	min	50
 岷	min	60
 皿	min	73
@@ -2124,6 +2125,7 @@ sort: by_weight
 裶	fei	1
 蜰	fei	1
 廃	fei	1
+朏	fei	2
 騑	fei	3
 厞	fei	3
 暃	fei	3
@@ -2196,6 +2198,7 @@ sort: by_weight
 玸	fu	0
 踾	fu	0
 郙	fu	0
+㳇	fu	1
 蜅	fu	1
 鰒	fu	1
 烰	fu	1
@@ -2559,6 +2562,7 @@ sort: by_weight
 盪	dang	2
 讜	dang	3
 簹	dang	3
+珰	dang	3
 璫	dang	3
 菪	dang	6
 蕩	dang	6
@@ -2672,6 +2676,7 @@ sort: by_weight
 梑	di	0
 逓	di	0
 鸐	di	0
+頔	di	1
 藡	di	1
 馰	di	1
 鏑	di	1
@@ -5112,6 +5117,7 @@ sort: by_weight
 蔆	ling	1
 欞	ling	1
 鯪	ling	1
+鸰	ling	1
 鴒	ling	1
 醽	ling	1
 爧	ling	1
@@ -13242,6 +13248,7 @@ sort: by_weight
 瀜	rong	1
 絨	rong	1
 媶	rong	2
+镕	rong	4
 鎔	rong	3
 傇	rong	3
 嫆	rong	4
@@ -14716,6 +14723,7 @@ sort: by_weight
 沄	yun	6
 勻	yun	6
 煇	yun	7
+赟	yun	10
 贇	yun	10
 氳	yun	10
 纭	yun	13
@@ -14820,6 +14828,7 @@ sort: by_weight
 压	ya	4148
 丫	ya	5309
 呀	ya	79232
+䶮	yan	0
 鬳	yan	0
 鳫	yan	0
 麙	yan	0
@@ -15061,6 +15070,7 @@ sort: by_weight
 卬	yang	6
 怏	yang	7
 暘	yang	8
+旸	yang	8
 蛘	yang	8
 烊	yang	12
 揚	yang	13
@@ -15094,6 +15104,7 @@ sort: by_weight
 养	yang	7053
 杨	yang	10328
 样	yang	14677
+峣	yao	0
 柼	yao	0
 餚	yao	0
 宎	yao	0
@@ -31928,6 +31939,7 @@ sort: by_weight
 户名	hu ming	122
 护法	hu fa	246
 互访	hu fang	141
+湖㳇	hu fu	1
 护肤	hu fu	496
 湖大	hu da	114
 蝴蝶	hu die	1859
