@@ -16,7 +16,7 @@ patch:
     caption: 〔输入法设置〕
     hotkeys:
       - Control+0
-      - Control+Shift+grave
+      - Control+Shift+0
       - F4
     fold_options: true
     abbreviate_options: true
