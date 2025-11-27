@@ -17,7 +17,7 @@ patch:
     spacing: 6
   preset_color_schemes/diy:
       name: 自定义／DIY
-      author: loaden <loaden@gmail.com>
+      author: loaden <loaden@live.com>
       back_color: 0xefefef                      # 窗口背景
       border_color: 0xff0000                    # 窗口边框
       text_color: 0x000000                      # 文字
