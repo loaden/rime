@@ -6,9 +6,9 @@
 
 patch:
   schema_list:
-    - schema: wubi_pinyin
     - schema: luna_pinyin
     - schema: wubi86
+    - schema: wubi_pinyin
     - schema: wubi_trad
   menu:
     page_size: 5  # 候选词数量
@@ -16,7 +16,6 @@ patch:
     caption: 〔输入法设置〕
     hotkeys:
       - Control+0
-      - Control+Shift+0
       - F4
     fold_options: true
     abbreviate_options: true
