@@ -14,25 +14,28 @@ patch:
       min_width: 160
       min_height: 0
       border_width: 1
-      margin_x: 5
-      margin_y: 5
-      spacing: 10
-      candidate_spacing: 5
-      hilite_spacing: 4
-      hilite_padding: 2
+      margin_x: 1
+      margin_y: 1
+      spacing: 8
+      candidate_spacing: 20
+      hilite_spacing: 2
+      hilite_padding: 1
       round_corner: 5
   preset_color_schemes/diy:
       name: 自定义／DIY
       author: loaden <loaden@live.com>
-      back_color: 0xefefef                      # 窗口背景
-      border_color: 0xc0c0c0                    # 窗口边框
-      text_color: 0x000000                      # 文字
-      label_color: 0x666666                     # 序号
-      comment_text_color: 0x256c12              # 编码
-      hilited_text_color: 0x0000ff              # 输入编码文字
-      hilited_back_color: 0xd4d4ff              # 输入编码背景
-      hilited_candidate_text_color: 0xffffff    # 首选词文字
-      hilited_candidate_back_color: 0xfa3a0a    # 首选词背景
-      hilited_label_color: 0xe8f6f9             # 首选词序号
-      hilited_comment_text_color: 0x00f2ff      # 首选词编码
-      candidate_text_color: 0x380409            # 候选词文字
+      text_color: 0x000000                          #默认文字颜色
+      comment_text_color: 0x256c12                  #编码
+      back_color: 0xffffff                          #候选窗背景色
+      shadow_color: 0x00000000                      #候选窗阴影色，默认全透明（无阴影）
+      border_color: 0xcccccc                        #候选窗边框颜色
+      hilited_text_color: 0x000000                  #编码文字颜色
+      hilited_back_color: 0x7fffff                  #编码背景颜色
+      hilited_shadow_color: 0x00000000              #编码背景块阴影颜色
+      hilited_candidate_text_color: 0xffffff        #高亮候选文字颜色
+      hilited_candidate_back_color: 0x000000        #高亮候选背景颜色
+      hilited_candidate_shadow_color: 0x00000000    #高亮候选背景块阴影颜色
+      label_color: 0xbe9270                         #序号
+      hilited_label_color: 0xe8f6f9                 #高亮候选序号颜色
+      hilited_comment_text_color: 0x00f2ff          #高亮候选编码颜色
+      candidate_text_color: 0x277fff                #候选词文字
