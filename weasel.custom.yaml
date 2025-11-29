@@ -38,4 +38,4 @@ patch:
       label_color: 0xbe9270                         #序号
       hilited_label_color: 0xe8f6f9                 #高亮候选序号颜色
       hilited_comment_text_color: 0x00f2ff          #高亮候选编码颜色
-      candidate_text_color: 0x277fff                #候选词文字
+      candidate_text_color: 0xe8a200                #候选词文字
